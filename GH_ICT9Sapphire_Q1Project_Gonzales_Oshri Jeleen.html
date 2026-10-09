@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+
+        nav{
+            background-color:rgb(255, 251, 247);
+        }
+
+        h2{
+            border: 2px dotted rgb(251, 121, 154);
+            background-color: rgb(255, 251, 247);
+        }
+
+        form{
+            background-color: rgb(255, 251, 247);
+            color: rgb(86, 125, 170);
+            border: 2px solid rgb(116, 70, 1);
+            border-radius: 8px;
+            padding: 20px;
+            width: 90%;
+            box-shadow: 10px 10px 5px 0px rgba(223, 205, 167, 0.75);
+            text-align:justify;
+        }
+
+        button{
+            text-align: center;
+            background-color: rgb(251, 121, 154);
+            border: 3px dashed;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar"style="display: flex; justify-content: space-between; align-items: center; width: 100%;">                      
+        <div class="nav-logo">
+        <img src="Oshri GOnzales.png" alt="pic" width="100px">
+        </div>
+
+    <ul class="nav-links" style="display: flex; gap: 20px; list-style: none;">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">My Works</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+    </nav>
+
+    <br>
+
+    <div class="image-container" style="text-align: center;">
+    <img src="pic.png" alt="Centered Image" width="220">
+    </div>
+
+    <h1 style="text-align: center; color: rgb(229, 95, 128);">Hi, Im Oshri Jeleen Gonzales!</h1>
+    <p style="text-align: center; color: rgb(251, 121, 154);">I am a student in 9-Sapphire who loves listening to music and watching shows and movies. I am interested in Math and Science and I enjoy doing things related to these subjects.</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2 style="text-align: center;color: rgb(47, 115, 179);">My Works</h2>
+    <br>
+
+    <div style="color: rgb(86, 125, 170);">
+        <ol>
+            <li style="font-size: larger; font-weight:bold; list-style-type: none;">My Favorite Spotify Artist</li>
+            <br>
+            <img src="spotify.png" width="350" style="border: 2px dashed rgb(251, 121, 154);">
+           
+            <br>
+            <br>
+                <ol style="list-style-type:disc;">
+                    <li>✓ HTML & CSS Projects</li>
+                    <li>✓ Spotify Artist</li>
+                    <li>✓ List, Links, & Images</li>
+                </ol>
+            
+                <ul style="list-style-type:disc;">
+                    <li><a href="https://www.canva.com/download/windows/">View Github Respository</a></li>
+                </ul>
+
+                <br>
+
+    </div>
+
+    <br>
+
+    <div style="color: rgb(86, 125, 170);">
+        <ol>
+            <li style="font-size: larger; font-weight:bold; list-style-type: none;">Rate A Movie Form</li>
+            <br>
+            <img src="rate a movie.png" width="350" style="border: 2px dashed rgb(251, 121, 154);">
+           
+            <br>
+            <br>
+                <ol style="list-style-type:disc;">
+                    <li>✓ HTML & CSS Projects</li>
+                    <li>✓ HTML Forms</li>
+                    <li>✓ Movie Recomendations</li>
+                </ol>
+            
+                <ul style="list-style-type:disc;">
+                    <li><a href="https://www.canva.com/download/windows/">View Github Respository</a></li>
+                </ul>
+
+                <br>
+                <br>
+
+    </div>
+
+        <hr>
+
+    <br>
+        <div class="form">
+        <img src="" alt="">
+        <p></p>
+
+         <form
+            <fieldset>
+
+            <h2 style="text-align: center; color: rgb(47, 115, 179);">Contact Me</h2>   
+            <hr>
+            <label for="fname">Your Name:</label>
+            <br>
+            <input id="fname" type="text" placeholder="Enter Full Name Here">
+
+            <br>
+            <br>
+
+            <label for="email">Your Email:</label>
+            <br>
+            <input id="email" type="email" placeholder="Enter Email Here">
+                        
+                <br>
+                <br>
+
+            <label for="fname">How Did You Find Me?</label>
+            
+            <input type="radio" name="rating">
+            <label for="rating">Instagram</label>
+
+            <input type="radio" name="rating">
+            <label for="rating">Facebook</label>
+
+            <input type="radio" name="rating">
+            <label for="rating">Friends</label>
+
+            <input type="radio" name="rating">
+            <label for="rating">Family</label>
+
+            <br>
+            <br>
+
+            <label for="grade-lvl">Interested In?</label>
+            <br>
+            <input type="checkbox" name="skills">
+            <label for="skills">Web Design</label>
+
+            <input type="checkbox" name="skills">
+            <label for="skills">Graphic Design</label>
+
+            <input type="checkbox" name="skills">
+            <label for="skills">Robotics</label>
+
+            <br>
+            <br>
+
+            <label for="rate">Rate my Portfolio:</label>
+            <select name="rate" id="rate" placeholder="Choose Grade Level">                    
+                <option value="1">⭐</option>
+                <option value="1">⭐⭐</option>
+                <option value="1">⭐⭐⭐</option>
+                <option value="1">⭐⭐⭐⭐</option>
+                <option value="1">⭐⭐⭐⭐⭐</option>
+            </select>
+
+            <hr>
+
+            <label for="reason">Any Feedback?</label>
+            <br>
+            <textarea name="Review" id="delivery-req"></textarea>
+
+            <br>
+            <br>
+       
+        <input type="submit" value="Submit" class="button" style="padding-left: 20%; padding-right: 20%; align-items: center; background-color: rgb(249, 230, 235); color: rgb(219, 28, 76); text-align: center; border: dotted;">
+        </fieldset>
+        </form>
+    
+        <br>
+
+        <footer style="text-align: center;">
+        <p>© 2026 | Oshri Jeleen Gonzales | 9-Sapphire</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
